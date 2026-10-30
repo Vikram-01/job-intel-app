@@ -23,10 +23,14 @@ jobs:
       - run: pip install -r backend/requirements.txt
       - name: Query every seed board on the real public APIs
         working-directory: backend
-        run: python scripts/live_connector_check.py
+        run: |
+          set -o pipefail
+          python scripts/live_connector_check.py 2>&1 | tee /tmp/check.log || { echo "::error title=Connector check::$(tail -40 /tmp/check.log | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"; exit 1; }
       - name: Publish report
         if: always()
-        run: cat backend/connector-report.md >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          cat backend/connector-report.md >> "$GITHUB_STEP_SUMMARY" || true
+          echo "::notice title=Connector report::$(sed 's/%/%25/g' backend/connector-report.md | awk '{printf "%s%%0A", $0}')"
       - uses: actions/upload-artifact@v4
         if: always()
         with:

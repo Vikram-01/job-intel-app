@@ -41,6 +41,12 @@ jobs:
           set -o pipefail
           ./gradlew --no-daemon testDebugUnitTest 2>&1 | tee "$RUNNER_TEMP/test.log"
 
+      - name: Publish Android connector report
+        if: always()
+        run: |
+          f=app/build/connector-report-android.md
+          [ -f "$f" ] && echo "::notice title=Android connector report::$(sed 's/%/%25/g' $f | awk '{printf "%s%%0A", $0}')" || echo "no report"
+
       - name: Decode release keystore
         id: ks
         env:

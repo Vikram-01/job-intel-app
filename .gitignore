@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/*.db
+backend/*.db-*
+backend/.env
+backend/connector-report.md
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+.DS_Store
+# Signing material and secrets — never commit
+*.jks
+*.keystore
+keystore.b64
+*.p12
+.env
+dist/

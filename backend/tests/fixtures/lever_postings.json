@@ -1,0 +1,36 @@
+[
+ {
+  "id": "a1b2",
+  "text": "Forward Deployed Engineer, AI",
+  "hostedUrl": "https://jobs.lever.co/acme/a1b2",
+  "applyUrl": "https://jobs.lever.co/acme/a1b2/apply",
+  "createdAt": 1761600000000,
+  "workplaceType": "remote",
+  "categories": {
+   "location": "Remote - India",
+   "commitment": "Full-time",
+   "team": "Deployment"
+  },
+  "descriptionPlain": "Work with customers to deploy LLMs and AI agents.",
+  "lists": [
+   {
+    "text": "Requirements",
+    "content": "<li>3+ years of experience with Python</li><li>REST APIs</li><li>Customer-facing experience</li>"
+   }
+  ],
+  "additionalPlain": "",
+  "salaryRange": {
+   "min": 3000000,
+   "max": 4500000,
+   "currency": "INR",
+   "interval": "per-year-salary"
+  }
+ },
+ {
+  "id": "zz",
+  "text": "Office Manager",
+  "hostedUrl": "https://jobs.lever.co/acme/zz",
+  "categories": {},
+  "descriptionPlain": ""
+ }
+]

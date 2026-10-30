@@ -1,0 +1,31 @@
+{
+  "_comment": "Seed company boards. Each entry is checked live by .github/workflows/connector-check.yml; slugs that fail are reported there and should be removed. Users can add more in the app (Settings > Sources) or via the backend API.",
+  "companies": [
+    {"name": "Cloudflare", "ats": "greenhouse", "slug": "cloudflare", "careers": "https://www.cloudflare.com/careers/"},
+    {"name": "Datadog", "ats": "greenhouse", "slug": "datadog", "careers": "https://careers.datadoghq.com/"},
+    {"name": "Okta", "ats": "greenhouse", "slug": "okta", "careers": "https://www.okta.com/company/careers/"},
+    {"name": "GitLab", "ats": "greenhouse", "slug": "gitlab", "careers": "https://about.gitlab.com/jobs/"},
+    {"name": "Anthropic", "ats": "greenhouse", "slug": "anthropic", "careers": "https://www.anthropic.com/careers"},
+    {"name": "Wiz", "ats": "greenhouse", "slug": "wizinc", "careers": "https://www.wiz.io/careers"},
+    {"name": "Elastic", "ats": "greenhouse", "slug": "elastic", "careers": "https://www.elastic.co/careers"},
+    {"name": "Abnormal Security", "ats": "greenhouse", "slug": "abnormalsecurity", "careers": "https://abnormalsecurity.com/careers"},
+    {"name": "Chainguard", "ats": "greenhouse", "slug": "chainguard", "careers": "https://www.chainguard.dev/careers"},
+    {"name": "Scale AI", "ats": "greenhouse", "slug": "scaleai", "careers": "https://scale.com/careers"},
+    {"name": "Databricks", "ats": "greenhouse", "slug": "databricks", "careers": "https://www.databricks.com/company/careers"},
+    {"name": "Postman", "ats": "greenhouse", "slug": "postman", "careers": "https://www.postman.com/company/careers/"},
+    {"name": "Glean", "ats": "greenhouse", "slug": "gleanwork", "careers": "https://www.glean.com/careers"},
+    {"name": "Palantir", "ats": "lever", "slug": "palantir", "careers": "https://www.palantir.com/careers/"},
+    {"name": "CRED", "ats": "lever", "slug": "cred", "careers": "https://careers.cred.club/"},
+    {"name": "Meesho", "ats": "lever", "slug": "meesho", "careers": "https://www.meesho.io/careers"},
+    {"name": "OpenAI", "ats": "ashby", "slug": "openai", "careers": "https://openai.com/careers"},
+    {"name": "Cohere", "ats": "ashby", "slug": "cohere", "careers": "https://cohere.com/careers"},
+    {"name": "Vanta", "ats": "ashby", "slug": "vanta", "careers": "https://www.vanta.com/company/careers"},
+    {"name": "Drata", "ats": "ashby", "slug": "drata", "careers": "https://drata.com/careers"},
+    {"name": "Ramp", "ats": "ashby", "slug": "ramp", "careers": "https://ramp.com/careers"},
+    {"name": "Sierra", "ats": "ashby", "slug": "sierra", "careers": "https://sierra.ai/careers"},
+    {"name": "Harvey", "ats": "ashby", "slug": "harvey", "careers": "https://www.harvey.ai/careers"},
+    {"name": "Decagon", "ats": "ashby", "slug": "decagon", "careers": "https://decagon.ai/careers"},
+    {"name": "Visa", "ats": "smartrecruiters", "slug": "Visa", "careers": "https://corporate.visa.com/en/jobs/"},
+    {"name": "Freshworks", "ats": "smartrecruiters", "slug": "Freshworks", "careers": "https://www.freshworks.com/company/careers/"}
+  ]
+}

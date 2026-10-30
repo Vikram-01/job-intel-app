@@ -1,0 +1,40 @@
+{
+ "jobs": [
+  {
+   "id": 4001,
+   "title": "Senior Application Security Engineer",
+   "absolute_url": "https://boards.greenhouse.io/acme/jobs/4001",
+   "location": {
+    "name": "Bengaluru, India"
+   },
+   "updated_at": "2026-10-28T10:00:00-04:00",
+   "first_published": "2026-10-27T09:00:00-04:00",
+   "departments": [
+    {
+     "name": "Security"
+    }
+   ],
+   "content": "&lt;h3&gt;What you'll do&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Run threat modeling and secure code review&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;5+ years of experience in application security&lt;/li&gt;&lt;li&gt;Python or Go&lt;/li&gt;&lt;li&gt;SAST tools such as Semgrep&lt;/li&gt;&lt;li&gt;AWS&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Nice to have&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Kubernetes&lt;/li&gt;&lt;li&gt;OSCP&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Hybrid, 3 days in office. &lt;script&gt;alert(1)&lt;/script&gt;&lt;/p&gt;"
+  },
+  {
+   "id": 4002,
+   "title": "Account Executive",
+   "absolute_url": "https://boards.greenhouse.io/acme/jobs/4002",
+   "location": {
+    "name": "New York"
+   },
+   "updated_at": "2026-10-28T10:00:00Z",
+   "content": "Sell things."
+  },
+  {
+   "id": 4003,
+   "title": "Forward Deployed Engineer",
+   "absolute_url": "javascript:alert(1)",
+   "location": {
+    "name": "Remote"
+   },
+   "updated_at": "2026-10-28T10:00:00Z",
+   "content": "x"
+  }
+ ]
+}

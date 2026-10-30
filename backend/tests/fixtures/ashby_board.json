@@ -1,0 +1,39 @@
+{
+ "jobs": [
+  {
+   "id": "9f8e",
+   "title": "Detection Engineer (SOC)",
+   "location": "Hyderabad",
+   "secondaryLocations": [
+    {
+     "location": "Pune"
+    }
+   ],
+   "department": "Security",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "Hybrid",
+   "descriptionPlain": "Build detections in Splunk and Sentinel. Requirements: 2+ years of experience in a SOC. MITRE ATT&CK. Python.",
+   "publishedAt": "2026-10-29T08:00:00.000Z",
+   "employmentType": "FullTime",
+   "jobUrl": "https://jobs.ashbyhq.com/acme/9f8e",
+   "applyUrl": "https://jobs.ashbyhq.com/acme/9f8e/application",
+   "compensation": {
+    "summaryComponents": [
+     {
+      "compensationType": "Salary",
+      "minValue": 1800000,
+      "maxValue": 2600000,
+      "currencyCode": "INR"
+     }
+    ]
+   }
+  },
+  {
+   "id": "hidden",
+   "title": "Security Engineer",
+   "isListed": false,
+   "jobUrl": "https://jobs.ashbyhq.com/acme/hidden"
+  }
+ ]
+}

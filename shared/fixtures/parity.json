@@ -1,0 +1,291 @@
+{
+ "today": "2026-10-01",
+ "cases": [
+  {
+   "title": "Senior Application Security Engineer",
+   "jd": "About the role\nWe need a senior application security engineer.\n\nRequirements\n• 5+ years of experience in application security\n• Python\n• SAST tools such as Semgrep or CodeQL\n• AWS\n\nNice to have\n• Kubernetes\n• Terraform\n",
+   "resume": "Priya Sharma\npriya@example.com | +91 98765 43210 | linkedin.com/in/priya\n\nSummary\nApplication security engineer focused on secure code review and threat modeling.\n\nExperience\nSenior Application Security Engineer, Fintech Co — Jan 2021 – Present\n• Led threat modeling for 40+ services, reducing critical findings by 35%\n• Rolled out Semgrep SAST across 120 repos in GitHub Actions\n• Built Python tooling for AWS IAM reviews\n\nSecurity Engineer, Startup — Jul 2018 – Dec 2020\n• Ran Burp Suite assessments of REST APIs\n• Wrote detection rules\n\nEducation\nB.Tech Computer Science, 2018\n\nSkills\nPython, Go, AWS, Semgrep, Burp Suite, Threat Modeling, OWASP, Docker\n",
+   "resume_skills": [
+    "Python",
+    "Go",
+    "AWS",
+    "Docker",
+    "Application Security",
+    "OWASP",
+    "Threat Modeling",
+    "SAST",
+    "DAST",
+    "CI/CD",
+    "IAM",
+    "REST APIs"
+   ],
+   "years": 8.3,
+   "titles": [
+    "Senior Application Security Engineer, Fintech Co — Jan 2021 – Present",
+    "Security Engineer, Startup — Jul 2018 – Dec 2020"
+   ],
+   "req": [
+    "Application Security",
+    "Python",
+    "SAST",
+    "AWS"
+   ],
+   "pref": [
+    "Kubernetes",
+    "Terraform"
+   ],
+   "min_years": 5,
+   "match_score": 85,
+   "ats_score": 79,
+   "ats_breakdown": {
+    "keywords": 67,
+    "sections": 100,
+    "parsing": 40,
+    "achievements": 100,
+    "title": 100,
+    "experience": 100,
+    "readability": 100
+   },
+   "bullets": 5,
+   "quantified": 2
+  },
+  {
+   "title": "Forward Deployed Engineer",
+   "jd": "Forward Deployed Engineer\nYou'll work directly with customers to deploy LLMs and AI agents into production.\n\nWhat you'll need\n• 3+ years of experience building REST APIs in Python or TypeScript\n• Customer-facing experience\n• Comfortable with Docker and Kubernetes\n\nBonus\n• Experience with Terraform\n• Prior presales or POC work\n",
+   "resume": "Arjun Rao\narjun@example.com +91 99887 76655\nExperience\nSolutions Engineer — Acme AI, Mar 2022 – Present\n- Delivered 15 customer POCs integrating LLMs via REST APIs\n- Built Python and TypeScript services on Docker\nSoftware Engineer — Beta, Jun 2020 - Feb 2022\n- Built microservices\nEducation\nB.E. 2020\nSkills\nPython, TypeScript, Docker, LLMs, RAG\n",
+   "resume_skills": [
+    "Python",
+    "TypeScript",
+    "Docker",
+    "LLMs",
+    "REST APIs",
+    "Microservices"
+   ],
+   "years": 6.4,
+   "titles": [
+    "Solutions Engineer — Acme AI, Mar 2022 – Present"
+   ],
+   "req": [
+    "LLMs",
+    "AI Agents",
+    "Python",
+    "TypeScript",
+    "REST APIs",
+    "Customer-Facing",
+    "Kubernetes",
+    "Docker"
+   ],
+   "pref": [
+    "Terraform",
+    "Technical Presales"
+   ],
+   "min_years": 3,
+   "match_score": 48,
+   "ats_score": 60,
+   "ats_breakdown": {
+    "keywords": 50,
+    "sections": 90,
+    "parsing": 40,
+    "achievements": 83,
+    "title": 0,
+    "experience": 100,
+    "readability": 100
+   },
+   "bullets": 3,
+   "quantified": 1
+  },
+  {
+   "title": "Senior Application Security Engineer",
+   "jd": "About the role\nWe need a senior application security engineer.\n\nRequirements\n• 5+ years of experience in application security\n• Python\n• SAST tools such as Semgrep or CodeQL\n• AWS\n\nNice to have\n• Kubernetes\n• Terraform\n",
+   "resume": "Arjun Rao\narjun@example.com +91 99887 76655\nExperience\nSolutions Engineer — Acme AI, Mar 2022 – Present\n- Delivered 15 customer POCs integrating LLMs via REST APIs\n- Built Python and TypeScript services on Docker\nSoftware Engineer — Beta, Jun 2020 - Feb 2022\n- Built microservices\nEducation\nB.E. 2020\nSkills\nPython, TypeScript, Docker, LLMs, RAG\n",
+   "resume_skills": [
+    "Python",
+    "TypeScript",
+    "Docker",
+    "LLMs",
+    "REST APIs",
+    "Microservices"
+   ],
+   "years": 6.4,
+   "titles": [
+    "Solutions Engineer — Acme AI, Mar 2022 – Present"
+   ],
+   "req": [
+    "Application Security",
+    "Python",
+    "SAST",
+    "AWS"
+   ],
+   "pref": [
+    "Kubernetes",
+    "Terraform"
+   ],
+   "min_years": 5,
+   "match_score": 19,
+   "ats_score": 49,
+   "ats_breakdown": {
+    "keywords": 17,
+    "sections": 90,
+    "parsing": 40,
+    "achievements": 83,
+    "title": 0,
+    "experience": 100,
+    "readability": 100
+   },
+   "bullets": 3,
+   "quantified": 1
+  }
+ ],
+ "titles": [
+  {
+   "title": "Senior Application Security Engineer",
+   "role": "appsec",
+   "group": "cyber",
+   "seniority": "senior"
+  },
+  {
+   "title": "Forward Deployed Engineer, AI",
+   "role": "fde",
+   "group": "fde",
+   "seniority": "unknown"
+  },
+  {
+   "title": "SOC Analyst I",
+   "role": "soc",
+   "group": "cyber",
+   "seniority": "junior"
+  },
+  {
+   "title": "Principal Security Architect",
+   "role": "secarch",
+   "group": "cyber",
+   "seniority": "principal"
+  },
+  {
+   "title": "Security Engineering Intern",
+   "role": "seceng",
+   "group": "cyber",
+   "seniority": "intern"
+  },
+  {
+   "title": "Staff Detection Engineer",
+   "role": "soc",
+   "group": "cyber",
+   "seniority": "lead"
+  },
+  {
+   "title": "Head of GRC",
+   "role": "grc",
+   "group": "cyber",
+   "seniority": "manager"
+  },
+  {
+   "title": "Solutions Engineer",
+   "role": "solutions",
+   "group": "fde",
+   "seniority": "unknown"
+  },
+  {
+   "title": "Marketing Manager",
+   "role": null,
+   "group": null,
+   "seniority": "manager"
+  },
+  {
+   "title": "Sr. Cloud Security Engineer",
+   "role": "cloudsec",
+   "group": "cyber",
+   "seniority": "senior"
+  },
+  {
+   "title": "Red Team Operator",
+   "role": "pentest",
+   "group": "cyber",
+   "seniority": "unknown"
+  },
+  {
+   "title": "Malware Reverse Engineer II",
+   "role": "malware",
+   "group": "cyber",
+   "seniority": "mid"
+  },
+  {
+   "title": "Platform Engineer",
+   "role": "platform",
+   "group": "fde",
+   "seniority": "unknown"
+  },
+  {
+   "title": "IAM Engineer",
+   "role": "iam",
+   "group": "cyber",
+   "seniority": "unknown"
+  }
+ ],
+ "salaries": [
+  {
+   "text": "Salary: $150,000 - $190,000",
+   "result": [
+    150000.0,
+    190000.0,
+    "USD"
+   ]
+  },
+  {
+   "text": "CTC ₹25L - ₹40L",
+   "result": [
+    2500000.0,
+    4000000.0,
+    "INR"
+   ]
+  },
+  {
+   "text": "£60k–£80k",
+   "result": [
+    60000.0,
+    80000.0,
+    "GBP"
+   ]
+  },
+  {
+   "text": "Competitive pay",
+   "result": [
+    null,
+    null,
+    null
+   ]
+  }
+ ],
+ "locations": [
+  {
+   "location": "Bengaluru, India",
+   "desc": "",
+   "country": "IN",
+   "mode": "onsite"
+  },
+  {
+   "location": "Remote - US",
+   "desc": "",
+   "country": "US",
+   "mode": "remote"
+  },
+  {
+   "location": "London",
+   "desc": "Hybrid working",
+   "country": "GB",
+   "mode": "hybrid"
+  },
+  {
+   "location": "",
+   "desc": "",
+   "country": null,
+   "mode": "unknown"
+  },
+  {
+   "location": "Pune",
+   "desc": "This is a fully remote position",
+   "country": "IN",
+   "mode": "remote"
+  }
+ ]
+}

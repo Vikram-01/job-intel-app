@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CipherPath" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/brand_bg_light</item>
+    </style>
+    <style name="Theme.CipherPath.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_ink</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_mark</item>
+        <item name="postSplashScreenTheme">@style/Theme.CipherPath</item>
+    </style>
+</resources>

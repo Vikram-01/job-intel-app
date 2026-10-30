@@ -1,0 +1,16 @@
+{
+ "id": "744000001",
+ "postingUrl": "https://jobs.smartrecruiters.com/Acme/744000001-cloud-security-architect",
+ "jobAd": {
+  "sections": {
+   "jobDescription": {
+    "title": "Job Description",
+    "text": "<p>Design cloud security for AWS and Azure.</p>"
+   },
+   "qualifications": {
+    "title": "Qualifications",
+    "text": "<ul><li>10+ years of experience</li><li>Terraform</li><li>Zero trust architecture</li></ul>"
+   }
+  }
+ }
+}

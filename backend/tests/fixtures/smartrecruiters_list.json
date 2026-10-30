@@ -1,0 +1,33 @@
+{
+ "totalFound": 2,
+ "offset": 0,
+ "limit": 100,
+ "content": [
+  {
+   "id": "744000001",
+   "name": "Cloud Security Architect",
+   "releasedDate": "2026-10-25T12:00:00.000Z",
+   "location": {
+    "city": "Bangalore",
+    "country": "in",
+    "remote": false,
+    "fullLocation": "Bangalore, Karnataka, India"
+   },
+   "department": {
+    "label": "Cyber"
+   },
+   "typeOfEmployment": {
+    "label": "Full-time"
+   }
+  },
+  {
+   "id": "744000002",
+   "name": "Payroll Specialist",
+   "releasedDate": "2026-10-25T12:00:00.000Z",
+   "location": {
+    "city": "Austin",
+    "country": "us"
+   }
+  }
+ ]
+}

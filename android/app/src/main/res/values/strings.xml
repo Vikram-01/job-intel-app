@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CipherPath</string>
+    <string name="channel_new_jobs">New jobs</string>
+    <string name="channel_high_match">High-match alerts</string>
+    <string name="channel_digest">Daily digest</string>
+    <string name="channel_reminders">Application reminders</string>
+</resources>

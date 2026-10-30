@@ -31,7 +31,7 @@ jobs:
         run: |
           cat backend/connector-report.md >> "$GITHUB_STEP_SUMMARY" || true
           echo "::notice title=Connector report::$(sed 's/%/%25/g' backend/connector-report.md | awk '{printf "%s%%0A", $0}')"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: connector-report

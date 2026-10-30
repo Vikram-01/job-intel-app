@@ -96,14 +96,14 @@ jobs:
           cp -r app/schemas ../dist/room-schemas 2>/dev/null || true
           (cd ../dist && sha256sum *.apk > SHA256SUMS.txt 2>/dev/null || true)
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: cipherpath-apk
           path: dist/
           if-no-files-found: warn
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: failure()
         with:
           name: test-and-lint-reports

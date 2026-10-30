@@ -108,7 +108,10 @@ class SafeClient:
                     if total > self._max_bytes:
                         raise UnsafeRequest("response too large")
                     chunks.append(chunk)
-                return httpx.Response(resp.status_code, headers=resp.headers, content=b"".join(chunks))
+                # iter_bytes() already decoded gzip/br; drop encoding headers so the body isn't decoded twice.
+                headers = {k: v for k, v in resp.headers.items()
+                           if k.lower() not in ("content-encoding", "content-length", "transfer-encoding")}
+                return httpx.Response(resp.status_code, headers=headers, content=b"".join(chunks))
         raise UnsafeRequest("too many redirects")
 
     def close(self) -> None:

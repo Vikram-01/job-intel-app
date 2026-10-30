@@ -61,3 +61,13 @@ def test_response_size_cap(monkeypatch):
     c._max_bytes = 1000
     with pytest.raises(UnsafeRequest):
         c.get_json("https://api.lever.co/v0/postings/x")
+
+
+@respx.mock
+def test_gzip_responses_are_decoded_once():
+    import gzip
+    body = gzip.compress(b'{"jobs": [1, 2]}')
+    respx.get("https://boards-api.greenhouse.io/v1/boards/x/jobs").mock(
+        return_value=httpx.Response(200, content=body, headers={"content-encoding": "gzip", "content-type": "application/json"}))
+    c = SafeClient(httpx.Client(follow_redirects=False), resolve_dns=False)
+    assert c.get_json("https://boards-api.greenhouse.io/v1/boards/x/jobs") == {"jobs": [1, 2]}

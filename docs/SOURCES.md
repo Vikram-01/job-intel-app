@@ -19,7 +19,7 @@ CipherPath only collects jobs through **official, permitted, unauthenticated pub
 
 The latest per-board results are in each run's summary and artifacts. Treat an integration as working only when those reports show `OK`.
 
-**Seed boards.** `shared/companies.json` lists 26 companies chosen for security and FDE hiring. Companies change ATS vendors, so a slug can go stale. The daily check reports `FAIL` for any board that stops responding, and the app shows a per-board status under **Sources**.
+**Seed boards.** `shared/companies.json` lists 25 companies chosen for security and FDE hiring. Companies change ATS vendors, so a slug can go stale. The daily check reports `FAIL` for any board that stops responding, and the app shows a per-board status under **Sources**.
 
 ## Search-link only (not imported)
 
